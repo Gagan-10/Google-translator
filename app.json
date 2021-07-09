@@ -1,0 +1,39 @@
+{
+    "name": "Telegram TRANSLATE Bot",
+    "description": "A Very Simple Telegram TRANSLATE Bot by @GAGAN20006",
+    "keywords": [
+        "telegram",
+        "GOOGLE",
+        "TRANSLATE",
+        "bot"
+    ],
+    "repository": "https://github.com/GAGAN-10/GOOGLE-TRANSLATOR",
+    "website": "https://T.ME/VBRBOTS",
+    "success_url": "https://t.me/VBRBOTS",
+    "env": {
+        "API_ID": {
+            "description": "Get this value from my.telegram.org or @TeleORG_Bot"
+        },
+        "API_HASH": {
+            "description": "Get this value from my.telegram.org or @TeleORG_Bot"
+        },
+        "BOT_TOKEN": {
+            "description": "Get this from @BotFather XD"
+        },
+      }
+    },
+    "buildpacks": [ 
+        {
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+        }, 
+        { 
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
