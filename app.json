@@ -8,7 +8,7 @@
         "bot"
     ],
     "repository": "https://github.com/GAGAN-10/GOOGLE-TRANSLATOR",
-    "website": "https://T.ME/VBRBOTS",
+    "website": "https://t.me/VBRBOTS",
     "success_url": "https://t.me/VBRBOTS",
     "env": {
         "API_ID": {
