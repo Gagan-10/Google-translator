@@ -119,9 +119,9 @@ async def start(bot, msg):
 ##When the user sent /help command, configure the message that the bot should send   
 @bot.on_message(filters.private & filters.command("help"))
 async def help(bot, msg):
-    await msg.reply_text(f"**GpyTranslate Bot**\n\nGpyTranslate is a word 'G+Py+Translate' which means 'Google Python Translate'. A bot to help you translate text (with emojis) to few Languages from any other language in world.\n\nGpyTranslator Bot is able to detect a wide variety of languages because he is a grand son of Google Translate API.\n\nYou can use GpyTranslator Bot in his private chat. But GpyTranslator Bot is not available for Telegram Group & Channel.\n\n**How To**\nJust send copied text or forward message with other language to GpyTranslator Bot and you'll receive a translation of the message in the language of your choice. Send /language command to know which language is available.\n\n---\nFind a problem? Send to @MrCentimetre\n\ncoded by @MrCentimetreLK and @itayki by using @DavideGalilei 's Library with 💚")
+    await msg.reply_text(f"**GpyTranslate Bot**\n\nGpyTranslate is a word 'G+Py+Translate' which means 'Google Python Translate'. A bot to help you translate text (with emojis) to few Languages from any other language in world.\n\nGpyTranslator Bot is able to detect a wide variety of languages because he is a grand son of Google Translate API.\n\nYou can use GpyTranslator Bot in his private chat. But GpyTranslator Bot is not available for Telegram Group & Channel.\n\n**How To**\nJust send copied text or forward message with other language to GpyTranslator Bot and you'll receive a translation of the message in the language of your choice. Send /language command to know which language is available.\n\n---\nFind a problem? Send to @vbrbots\n\ncoded by @vbr and @iki by using @pythomi 's Library with 💚")
 
-##When the user sent /donate command, configure the message that the bot should send
+##When the user sent  command, configure the message that the bot should send
 @bot.on_message(filters.private & filters.command("donate"))
 async def donate(bot, msg):
     await msg.reply_text(f"It's just a command \ud83d\ude09 But you can contact my father - @ONRBOTS")
