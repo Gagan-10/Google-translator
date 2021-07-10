@@ -11,7 +11,7 @@ TOKEN = os.environ.get("TOKEN", "")
 API_ID = int(os.environ.get("API_ID", 12345))
 
 API_HASH = os.environ.get("API_HASH", "")
-app = Client(
+bot = Client(
         "bot",
         bot_token=TOKEN,api_hash=API_HASH,
             api_id=API_ID
