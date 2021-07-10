@@ -7,6 +7,7 @@ import sqlite3, string
 # ⚠️ Fill api_id and api_hash from my.telegram.org.. Also fill your bot_token from @botfather
 
 bot = Client(
+           ""APP_NAME"
  API_ID= int(os.environ.get("API_ID", 12345))
 
 API_HASH= os.environ.get("API_HASH", "")
