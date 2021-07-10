@@ -4,7 +4,7 @@
     "repository": "https://github.com/gagan-10/Google-Translator-",
     "keywords": ["Google Translater", "pyrogram", "telegram bot"],
     "env": {
-        "TOKEN": {
+        "BOT_TOKEN": {
             "description": "Your Bot token from @Botfather"
         },
         "API_ID": {
