@@ -1,39 +1,22 @@
 {
-    "name": "Telegram TRANSLATE Bot",
-    "description": "A Very Simple Telegram TRANSLATE Bot by @GAGAN20006",
-    "keywords": [
-        "telegram",
-        "GOOGLE",
-        "TRANSLATE",
-        "bot"
-    ],
-    "repository": "https://github.com/GAGAN-10/GOOGLE-TRANSLATOR",
-    "website": "https://T.ME/VBRBOTS",
-    "success_url": "https://t.me/VBRBOTS",
+    "name": "Google Translater",
+    "description": "Bot can translate any language to you selected language",
+    "repository": "https://github.com/gagan-10/Google-Translator-",
+    "keywords": ["Google Translater", "pyrogram", "telegram bot"],
     "env": {
+        "TOKEN": {
+            "description": "Your Bot token from @Botfather"
+        },
         "API_ID": {
-            "description": "Get this value from my.telegram.org or @TeleORG_Bot"
+            "description": "Your API_ID from https://my.telegram.org/apps"
         },
         "API_HASH": {
-            "description": "Get this value from my.telegram.org or @TeleORG_Bot"
-        },
-        "BOT_TOKEN": {
-            "description": "Get this from @BotFather XD"
-        },
-      }
-    },
-    "buildpacks": [ 
-        {
-            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-        }, 
-        { 
-            "url": "heroku/python"
-        },
-    ],
-    "formation": {
-        "worker": {
-            "quantity": 1,
-            "size": "free"
+            "description": "Your API_HASH from https://my.telegram.org/apps"
         }
-    }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
 }
